@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 5px; 
+  background-color: #231f1b;
+}
+
+/* Style the scrollbar handle/thumb */
+html::-webkit-scrollbar-thumb {
+  background-color: #e19223;
+  border-radius: 10px;
+}
+
+body{
+  background-color:#231f1b ;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#heroId{
+  font-family: 'Bebas Neue', sans-serif;
+  transform: scaleY(2);
+  display: inline-block;
+}
+
+#ai-utilization{
+  background-image: url('./assets/utilization.svg');
+  height: fit-content;
+  width: 100%;
+}
+
+#ai-sec-box{
+  background: linear-gradient(to right, #27221b ,#e19223 100%);
+}
+
+#stretch{
+  transform: scaleY(1.5);
+}
+
+#ai-sec-box #ai-heading{
+  transform: scaleY(1.5);
+  letter-spacing: 0.5px;
+}
+
+@media (min-width:768px) {
+  #ai-sec-box #ai-heading{
+  transform: scaleY(1.8);
+  letter-spacing: 0.8px;
+  }
+}
+
+@media (min-width:1024px) {
+  #ai-sec-box #ai-heading{
+  letter-spacing: 1px;
+  }
+}
+
+#profilePic{
+  object-fit: cover;
+}
+
+#minus{
+  display: none;
+}
+
+
+#readyToStart{
+  background-image: url('./assets/footerbgImg.webp');
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+
+@media (min-width:700px) {
+  #readyToStart{
+  background-image: url('./assets/footerbgImg.webp');
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+}
+@media (min-width:1000px) {
+  #readyToStart{
+  background-image: url('./assets/footerbgImg.webp');
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+}
+
+@media (min-width:1200px) {
+  #readyToStart{
+  background-image: url('./assets/footerbgImg.webp');
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+}
