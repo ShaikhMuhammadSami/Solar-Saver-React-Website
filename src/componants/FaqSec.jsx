@@ -82,8 +82,8 @@ const FaqSec = () => {
         <div className='min-h-[100px] sm:min-h-[180px]'>
             <div className='flex justify-between items-center'>
                 <h2 className='text-[#4f4c49] font-bold scale-y-125 text-[18px] sm:text-xl md:text-2xl'>WHAT IS SOLAR ENERGY?</h2>
-                < i class='bx  bx-plus text-[#eb7f25] text-3xl' ref={plus1} ></i> 
-                < i class='bx  bx-minus text-[#eb7f25] text-3xl' id="minus" ref={minus1} ></i> 
+                < i className='bx  bx-plus text-[#eb7f25] text-3xl' ref={plus1} ></i> 
+                < i className='bx  bx-minus text-[#eb7f25] text-3xl' id="minus" ref={minus1} ></i> 
             </div>
             <p className='hidden text-white text-[20px] my-10' ref={para1}>Solar panels work by capturing sunlight through photovoltaic cells, which convert the sunlight into direct 
             current (DC) electricity. An inverter then converts the DC electricity into alternating current 
@@ -92,8 +92,8 @@ const FaqSec = () => {
         <div className='min-h-[100px] sm:h-[180px]'>
             <div className='flex justify-between items-center'>
                 <h2 className='text-[#4f4c49] font-bold scale-y-125 text-[18px] sm:text-xl md:text-2xl'>WHAT ARE THE BENIFITS OF USING SOLAR PANELS</h2>
-                < i class='bx  bx-plus text-[#eb7f25] text-3xl'  ref={plus2} ></i> 
-                < i class='bx  bx-minus text-[#eb7f25] text-3xl' id="minus" ref={minus2} ></i> 
+                < i className='bx  bx-plus text-[#eb7f25] text-3xl'  ref={plus2} ></i> 
+                < i className='bx  bx-minus text-[#eb7f25] text-3xl' id="minus" ref={minus2} ></i> 
             </div>
             <p className='hidden text-white text-[20px] my-10' ref={para2}>Solar panels offer several benefits, including reducing electricity bills, decreasing carbon footprint, and providing a renewable source of energy. 
             They also have low maintenance costs and can increase property value.</p>
@@ -101,8 +101,8 @@ const FaqSec = () => {
         <div className='min-h-[100px] sm:h-[180px]'>
             <div className='flex justify-between items-center'>
                 <h2 className='text-[#4f4c49] font-bold scale-y-125 text-[18px] sm:text-xl md:text-2xl'>HOW LONG DO SOLAR PANEL LAST?</h2>
-                < i class='bx  bx-plus text-[#eb7f25] text-3xl' ref={plus3}  ></i> 
-                < i class='bx  bx-minus text-[#eb7f25] text-3xl' id="minus" ref={minus3}  ></i> 
+                < i className='bx  bx-plus text-[#eb7f25] text-3xl' ref={plus3}  ></i> 
+                < i className='bx  bx-minus text-[#eb7f25] text-3xl' id="minus" ref={minus3}  ></i> 
             </div>
             <p className='hidden text-white text-[20px] my-10' ref={para3}>Solar panels typically have a lifespan of 25 to 30 years. However, their efficiency may decrease slightly over time.
                  Most manufacturers offer warranties that guarantee performance for 20-25 years.</p>
@@ -110,8 +110,8 @@ const FaqSec = () => {
         <div className='min-h-[100px] sm:h-[180px]'>
             <div className='flex justify-between items-center'>
                 <h2 className='text-[#4f4c49] font-bold scale-y-125 text-[18px] sm:text-xl md:text-2xl'>WHAT MAINTENANCE DO SOLAR PANELS REQUIRE?</h2>
-                < i class='bx  bx-plus text-[#eb7f25] text-3xl'  ref={plus4} ></i> 
-                < i class='bx  bx-minus text-[#eb7f25] text-3xl ' id="minus" ref={minus4} ></i> 
+                < i className='bx  bx-plus text-[#eb7f25] text-3xl'  ref={plus4} ></i> 
+                < i className='bx  bx-minus text-[#eb7f25] text-3xl ' id="minus" ref={minus4} ></i> 
             </div>
             <p className='hidden text-white text-[20px] my-10' ref={para4}>Solar panels require minimal maintenance. It is recommended to clean them a few times a year to ensure they are free of debris and dust.
              Regular inspections can help identify and address any potential issues early.</p>
